@@ -1,0 +1,134 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+    
+    .body { 
+        height: 100%;
+        font-family: "Poppins", sans-serif;
+      }
+
+    .header {
+        background: blue;
+        color: white;
+        text-align: center;
+        padding: 25px 0;
+     }
+
+    .nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+    .nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 0;
+      }
+    #tengah {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 100%;
+        min-height: calc(100vh - 160px);
+        background-color: rgb(88, 160, 200);
+        padding: 20px;
+        border-radius: 0;
+        font-family: "poopins", sans-serif;
+      }
+
+    #tengah1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        min-height: calc(100vh - 160px);
+        background-color: rgb(88, 160, 200);
+        padding-top: 60px; 
+        padding: 20px;
+        border-radius: 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+    .cerita {
+      max-width: 800px;           /* agar teks tidak terlalu lebar */
+      margin: 40px auto;          /* posisi teks di tengah halaman */
+      background-color: rgba(255, 255, 255, 0.1); /* sedikit kontras lembut */
+      padding: 20px;              /* beri ruang di dalam teks */
+      border-radius: 10px;        /* sudut lembut */
+      line-height: 1.8;           /* jarak antar baris agar mudah dibaca */
+      font-size: 16px;
+      color: black;                /* warna teks hitam */
+      text-align: justify;        /* rata kanan–kiri agar rapi seperti paragraf */
+      font-family: "Poppins", sans-serif;
+      }
+
+    .cerita h2 {
+        text-align: center;         /* judul di tengah */
+         margin-bottom: 15px;
+        color: #111;
+      }
+
+    .cerita p {
+        margin-bottom: 15px;        /* jarak antar paragraf */
+      }
+
+
+    .footer {
+        background-color: blue;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        font-weight: bold;
+        font-family: "poopins", sans-serif;
+      }
+
+    .login-box {
+        background-color: rgba(255,255,255,0.9);
+        padding: 30px;
+        border-radius: 12px;
+        width: 300px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      }
+
+    .login-box input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+      }
+
+    .login-box button {
+        width: 100%;
+        padding: 10px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+    .login-box button:hover {
+        background-color: navy;
+      }
+
+      
+
+      
+    
+
+
+    
+
+      
