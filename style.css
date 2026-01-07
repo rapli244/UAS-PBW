@@ -61,26 +61,26 @@
       }
 
     .cerita {
-      max-width: 800px;           /* agar teks tidak terlalu lebar */
-      margin: 40px auto;          /* posisi teks di tengah halaman */
-      background-color: rgba(255, 255, 255, 0.1); /* sedikit kontras lembut */
-      padding: 20px;              /* beri ruang di dalam teks */
-      border-radius: 10px;        /* sudut lembut */
-      line-height: 1.8;           /* jarak antar baris agar mudah dibaca */
+      max-width: 800px;           
+      margin: 40px auto;          
+      background-color: rgba(255, 255, 255, 0.1); 
+      padding: 20px;              
+      border-radius: 10px;        
+      line-height: 1.8;           
       font-size: 16px;
-      color: black;                /* warna teks hitam */
-      text-align: justify;        /* rata kanan–kiri agar rapi seperti paragraf */
+      color: black;                
+      text-align: justify;        
       font-family: "Poppins", sans-serif;
       }
 
     .cerita h2 {
-        text-align: center;         /* judul di tengah */
+        text-align: center;         
          margin-bottom: 15px;
         color: #111;
       }
 
     .cerita p {
-        margin-bottom: 15px;        /* jarak antar paragraf */
+        margin-bottom: 15px;        
       }
 
 
@@ -130,5 +130,6 @@
 
 
     
+
 
       
